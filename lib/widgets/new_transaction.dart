@@ -29,13 +29,13 @@ class _NewTransactionState extends State<NewTransaction> {
   @override
   Widget build(BuildContext context) {
     return  Padding(
-      padding: const EdgeInsets.all(30.0),
+      padding: const EdgeInsets.all(40.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           TextField(
             controller: titleController,
-            decoration: InputDecoration(label: Text("Title")),
+            decoration: InputDecoration(label: Text("Title of Things")),
           ),
           SizedBox(height: 20.0,),
           TextField(
