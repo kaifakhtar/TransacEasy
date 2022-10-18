@@ -85,7 +85,7 @@ class _TransacEasyState extends State<TransacEasy> {
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         floatingActionButton: FloatingActionButton(
           onPressed: ()=>_startNewTransaction(context),
-          child: Icon(Icons.add),
+          child: Icon(Icons.monetization_on),
         ),
       drawer: Drawer(),
     );
